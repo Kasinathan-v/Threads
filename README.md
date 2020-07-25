@@ -17,4 +17,4 @@ There are two types of threa:
 
 2) Deamon threads- for garbage collections,...
 
-Deamon thread is the lowest priority and it is not considerd at all(when the main thread and other higher priority thread finishes execution,JVM  will exit itself and it will not even if Deamon threads are running(Deamon threads are terminated by jvm and then it exits)).
+Deamon thread is the lowest priority and it is not considerd at all(when the main thread and other higher priority thread finishes execution,JVM  will exit itself and it will not even wait if Deamon threads are running(Deamon threads are terminated by jvm and then it exits)).
