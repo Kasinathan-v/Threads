@@ -3,7 +3,7 @@
 
 Multiple threading is used for concurrent execution and thread is part/one among the multithreads.
 
-Calculating Factorial for big number may take huge time.
+Calculating Factorial for an array of numbers may take huge time.
 
 So, we can create threads and excute the computation concurrently.
 
